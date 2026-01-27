@@ -1,5 +1,5 @@
 {
-  "name": "@diegodi4/cfnassets",
+  "name": "@diquattro/cfnassets",
   "version": "0.6.1",
   "description": "Build asset zip packages for deployment. Fork of @awboost/cfnassets with pnpm support.",
   "type": "module",

@@ -1,4 +1,4 @@
-# @diegodi4/cfnassets
+# @diquattro/cfnassets
 
 > **Fork of [@awboost/cfnassets](https://github.com/awboost/cfnassets)** by Gordon Leigh.
 > This fork adds pnpm support. Consider using the original package if/when this feature is merged upstream.
