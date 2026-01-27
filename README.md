@@ -28,6 +28,23 @@ You need an assets config file:
 }
 ```
 
+The `packageLockPath` option supports npm (`package-lock.json`), yarn (`yarn.lock`), and pnpm (`pnpm-lock.yaml`):
+
+```jsonc
+// Example using pnpm
+{
+  "api": {
+    "type": "rollup",
+    "options": {
+      "entrypoint": "./lib/lambda.js",
+      "install": ["source-map-support"],
+      "packageFilePath": "package.json",
+      "packageLockPath": "pnpm-lock.yaml"
+    }
+  }
+}
+```
+
 Then run:
 
 ```
