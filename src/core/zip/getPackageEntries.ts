@@ -34,7 +34,7 @@ export async function* getPackageEntries({
   } else if (lockBasename === 'yarn.lock') {
     exec = ['yarn', '--frozen-lockfile'];
   } else if (lockBasename === 'pnpm-lock.yaml') {
-    exec = ['pnpm', 'install', '--frozen-lockfile'];
+    exec = ['pnpm', 'install'];
   } else {
     throw new Error(`unknown lockfile type for path '${packageLockPath}'`);
   }
