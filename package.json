@@ -1,16 +1,20 @@
 {
-  "name": "@awboost/cfnassets",
-  "version": "0.6.0",
+  "name": "@diegodi4/cfnassets",
+  "version": "0.6.1",
+  "description": "Build asset zip packages for deployment. Fork of @awboost/cfnassets with pnpm support.",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/awboost/cfnassets.git"
+    "url": "https://github.com/diegodi4/cfnassets.git"
   },
-  "homepage": "https://github.com/awboost/cfnassets#readme",
-  "author": {
-    "email": "gordonmleigh@gmail.com",
-    "name": "Gordon Leigh"
-  },
+  "homepage": "https://github.com/diegodi4/cfnassets#readme",
+  "author": "diegodi4",
+  "contributors": [
+    {
+      "name": "Gordon Leigh",
+      "email": "gordonmleigh@gmail.com"
+    }
+  ],
   "license": "MIT",
   "private": false,
   "publishConfig": {
