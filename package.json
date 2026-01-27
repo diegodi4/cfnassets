@@ -1,6 +1,6 @@
 {
   "name": "@diquattro/cfnassets",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "Build asset zip packages for deployment. Fork of @awboost/cfnassets with pnpm support.",
   "type": "module",
   "repository": {
